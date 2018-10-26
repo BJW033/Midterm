@@ -12,7 +12,8 @@ public class RectangleTestV2 {
 	@Test
 	public void RecConstructTest() {
 		Rectangle t = new Rectangle(1,2);
-		
+		assertEquals(1,t.getWidth());
+		assertEquals(2,t.getLength());
 	}
 	@Test
 	public void RecGetWidth() {

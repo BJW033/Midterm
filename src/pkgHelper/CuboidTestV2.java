@@ -11,7 +11,11 @@ public class CuboidTestV2 {
 
 	@Test
 	public void CuboidConstructTest(){
-		
+		Cuboid c = new Cuboid (1,2,3);
+		assertEquals(3,c.getDepth());
+		assertEquals(2,c.getLength());
+		assertEquals(1,c.getWidth());
+
 	}
 	@Test
 	public void GetDepthTest() {
