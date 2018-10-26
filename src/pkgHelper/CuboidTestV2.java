@@ -15,7 +15,7 @@ public class CuboidTestV2 {
 		assertEquals(3,c.getDepth());
 		assertEquals(2,c.getLength());
 		assertEquals(1,c.getWidth());
-
+		assertTrue(c instanceof Cuboid);
 	}
 	@Test
 	public void GetDepthTest() {

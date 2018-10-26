@@ -14,6 +14,7 @@ public class RectangleTestV2 {
 		Rectangle t = new Rectangle(1,2);
 		assertEquals(1,t.getWidth());
 		assertEquals(2,t.getLength());
+		assertTrue(t instanceof Rectangle);
 	}
 	@Test
 	public void RecGetWidth() {
